@@ -260,3 +260,174 @@ Personagens
             <p><b>Gênero: </b> Masculino</p>
           </div>
         </article>
+  
+  
+base.css
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "Saiyan-Sans";
+  src: url("Saiyan-Sans.ttf");
+}
+
+* {
+  /* Resetando o CSS padrão */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Elementos */
+
+main {
+  margin: 0 20px;
+}
+
+p {
+  font-size: 12px;
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+
+/* Identificação e classes */
+section#menu-principal {
+  background-color: #e55e2e;
+  padding: 7px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+img.banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+article.card {
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+/* Hierarquia */
+section#menu-principal > header {
+  display: flex;
+  align-items: center;
+}
+
+section#menu-principal > header > span {
+  margin-left: 15px;
+  font-family: "Saiyan-Sans", serif;
+  font-size: 20px;
+}
+
+nav > a:link,
+nav > a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header > nav {
+  background-color: #fda402;
+  padding: 10px;
+}
+
+header > nav > span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header > nav > a,
+header > nav > span {
+  font-size: 12px !important;
+}
+
+header > nav > span + span {
+  text-decoration: underline;
+}
+
+main > div {
+  background-color: #ac0117;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+main > div > h1 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+main h2 {
+  color: #7fcb07;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: #e55e2e;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer > p {
+  text-align: center;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+  
+  @import url("base.css");
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(2,400px);
+  column-gap: 180px;
+  row-gap: 40px;
+  margin: 50px 70px;
+}
+
+.box{
+    border: 3px solid #AC0117;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.box>div{
+    background-color: rgba(172, 1, 23,.8);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.box>div>a{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Saiyan-Sans', serif;
+    text-align: center; /* Só funciona em display block */
+    display: block;
+}
+
+#box_one{
+    background-image: url('../img/historia.png');
+}
+#box_two{
+    background-image: url('../img/akira.png');
+}
+#box_three{
+    background-image: url('../img/personagens.png');
+}
+#box_four{
+    background-image: url('../img/galeria.png');
+}
+  
+ 
