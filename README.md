@@ -117,7 +117,86 @@ Código html Autor
   </body>
 </html>
 
+História do Anime
 
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Kentaro Miura - História do anime</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <style>
+      .card > h2 {
+        text-align: center;
+      }
+      .card p {
+        text-indent: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section id="menu-principal">
+        <header>
+          <img src="../img/logo.png" alt="Logo do site" />
+          <span>Kentaro Miura</span>
+        </header>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="#">História do anime</a>
+          <a href="biography.html">Biografia do autor</a>
+          <a href="characters.html">Personagens</a>
+        </nav>
+      </section>
+      <nav>
+        <a href="../index.html">Página inicial</a>
+        <span> > </span>
+        <span>História do anime</span>
+      </nav>
+      <img src="../img/historia.png" alt="Kentaro Miura" class="banner" />
+    </header>
+    <main>
+      <div>
+        <h1>História do anime</h1>
+      </div>
+      <article class="card">
+        <p>
+          Berserk (ベルセルク Beruseruku?) é uma série de mangá escrita e ilustrada por Kentaro Miura. 
+          Situado em um mundo de fantasia sombria inspirado na Europa medieval, a história gira em torno de Guts, 
+          um solitário mercenário, e 
+          Griffith, o líder de um bando de 
+          mercenários chamado de "Bando do Falcão". Miura publicou um one-shot de Berserk em 1988.
+        </p>
+        <p>
+          A série começou a ter os seus capítulos publicados no ano seguinte na 
+          agora extinta revista Monthly Animal House, que foi substituída em 1992 pela 
+          revista bimestral Young Animal, onde Berserk continua a ser serializado 
+          intermitentemente. Miura faleceu em maio de 2021, deixando o destino da publicação do mangá indefinido
+        </p>
+        <p>
+          Berserk foi adaptado em uma série de televisão de anime de 25 episódios 
+          pelo estúdio Oriental Light and Magic, que adaptou o arco Era de Ouro e foi exibido de 7 de outubro de 1997 a 31 de março de 1998.
+          A Era de Ouro foi novamente adaptada em uma trilogia de filmes; os dois primeiros filmes estrearam em 2012 e o terceiro filme estreou em 2013.
+        </p>
+        <p>
+          Uma segunda adaptação de anime para a televisão de 24 episódios 
+          foi transmitida por duas temporadas entre 2016 e 2017.
+
+         Em maio de 2021, o mangá de Berserk tinha mais de 50 milhões de cópias em 
+         circulação, incluindo versões digitais, tornando-se uma das séries de mangá mais vendidas de todos os tempos.
+        </p>
+        <p>
+          O mangá recebeu o Prêmio de Excelência na sexta edição do Prêmio Cultural Osamu Tezuka em 2002. Berserk
+          foi amplamente aclamado pela crítica, que se destacou pelo seu universo sombrio, qualidade nos desenvolvimento da 
+          narrativa e de personagens e, especialmente, pela arte detalhada dos desenhos de Miura.
+        </p>
+      </article>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
 
 
 
