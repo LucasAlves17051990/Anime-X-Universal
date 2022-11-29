@@ -421,13 +421,10 @@ main {
     background-image: url('../img/historia.png');
 }
 #box_two{
-    background-image: url('../img/akira.png');
+    background-image: url('../img/Kentaro.png');
 }
 #box_three{
     background-image: url('../img/personagens.png');
-}
-#box_four{
-    background-image: url('../img/galeria.png');
 }
   
  
